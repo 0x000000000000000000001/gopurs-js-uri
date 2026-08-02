@@ -1,8 +1,1 @@
-package:
-  name: js-uri
-  dependencies:
-    - assert
-    - effect
-    - functions
-    - maybe
-    - prelude
+spago.go.yaml

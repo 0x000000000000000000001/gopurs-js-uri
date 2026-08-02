@@ -1,0 +1,214 @@
+=== Building project with spago ===
+Reading Spago workspace configuration...
+
+✓ Selecting package to build: js-uri
+
+Downloading dependencies...
+No lockfile found, generating it...
+Lockfile written to spago.lock. Please commit this file.
+Building...
+[  1 of 162] Compiling Unsafe.Coerce
+[  4 of 162] Compiling Spago.Generated.BuildInfo
+[  2 of 162] Compiling Type.Proxy
+[  3 of 162] Compiling Type.Equality
+[  5 of 162] Compiling Data.Traversable.Accum
+[  6 of 162] Compiling Data.Unit
+[  7 of 162] Compiling Record.Unsafe
+[  8 of 162] Compiling Partial
+[  9 of 162] Compiling Data.Void
+[ 10 of 162] Compiling Data.NaturalTransformation
+[ 11 of 162] Compiling Data.Int.Bits
+[ 12 of 162] Compiling Data.Boolean
+[ 13 of 162] Compiling Control.Semigroupoid
+[ 14 of 162] Compiling Data.Function.Uncurried
+[ 15 of 162] Compiling Control.Lazy
+[ 16 of 162] Compiling Partial.Unsafe
+[ 17 of 162] Compiling Data.Symbol
+[ 18 of 162] Compiling Data.Exists
+[ 19 of 162] Compiling Control.Category
+[ 20 of 162] Compiling Safe.Coerce
+[ 21 of 162] Compiling Data.Semigroup
+[ 22 of 162] Compiling Data.Semiring
+[ 23 of 162] Compiling Data.HeytingAlgebra
+[ 24 of 162] Compiling Data.Show
+[ 25 of 162] Compiling Data.Ring
+[ 26 of 162] Compiling Data.Generic.Rep
+[ 28 of 162] Compiling Data.BooleanAlgebra
+[ 27 of 162] Compiling Data.Eq
+[ 29 of 162] Compiling Data.CommutativeRing
+[ 30 of 162] Compiling Data.Ordering
+[ 31 of 162] Compiling Data.EuclideanRing
+[ 32 of 162] Compiling Data.Ord
+[ 33 of 162] Compiling Data.DivisionRing
+[ 34 of 162] Compiling Data.Field
+[ 36 of 162] Compiling Data.Bounded
+[ 35 of 162] Compiling Data.Monoid
+[ 37 of 162] Compiling Data.Function
+[ 38 of 162] Compiling Data.Reflectable
+[ 39 of 162] Compiling Data.Functor
+[ 41 of 162] Compiling Data.Monoid.Generic
+[ 40 of 162] Compiling Data.Bounded.Generic
+[ 42 of 162] Compiling Control.Alt
+[ 44 of 162] Compiling Control.Extend
+[ 43 of 162] Compiling Control.Apply
+[ 45 of 162] Compiling Control.Plus
+[ 46 of 162] Compiling Control.Comonad
+[ 47 of 162] Compiling Control.Applicative
+[ 48 of 162] Compiling Control.Alternative
+[ 49 of 162] Compiling Control.Bind
+[ 50 of 162] Compiling Control.Monad
+[ 51 of 162] Compiling Control.MonadPlus
+[ 52 of 162] Compiling Prelude
+[ 53 of 162] Compiling Data.Ord.Generic
+[ 54 of 162] Compiling Data.Monoid.Conj
+[ 55 of 162] Compiling Data.Monoid.Endo
+[ 56 of 162] Compiling Data.Monoid.Additive
+[ 57 of 162] Compiling Data.Eq.Generic
+[ 58 of 162] Compiling Data.HeytingAlgebra.Generic
+[ 59 of 162] Compiling Effect
+[ 60 of 162] Compiling Data.Monoid.Disj
+[ 61 of 162] Compiling Data.Number.Format
+[ 62 of 162] Compiling Data.Show.Generic
+[ 63 of 162] Compiling Data.Semigroup.Last
+[ 65 of 162] Compiling Data.Ring.Generic
+[ 64 of 162] Compiling Data.Monoid.Dual
+[ 66 of 162] Compiling Data.Monoid.Multiplicative
+[ 67 of 162] Compiling Data.Semigroup.Generic
+[ 68 of 162] Compiling Data.Traversable.Accum.Internal
+[ 69 of 162] Compiling Data.Semigroup.First
+[ 70 of 162] Compiling Data.Semiring.Generic
+[ 71 of 162] Compiling Effect.Ref
+[ 74 of 162] Compiling Effect.Console
+[ 72 of 162] Compiling Effect.Class
+[ 73 of 162] Compiling Effect.Unsafe
+[ 75 of 162] Compiling Effect.Uncurried
+[ 77 of 162] Compiling Test.Assert
+[ 76 of 162] Compiling Effect.Class.Console
+[ 78 of 162] Compiling Data.Newtype
+[ 79 of 162] Compiling Data.Ord.Min
+[ 80 of 162] Compiling Data.Monoid.Alternate
+[ 81 of 162] Compiling Data.Profunctor
+[ 82 of 162] Compiling Data.Ord.Down
+[ 83 of 162] Compiling Data.Ord.Max
+[ 84 of 162] Compiling Data.Functor.App
+[ 85 of 162] Compiling Data.Profunctor.Closed
+[ 86 of 162] Compiling Data.Functor.Invariant
+[ 87 of 162] Compiling Data.Functor.Compose
+[ 88 of 162] Compiling Data.Identity
+[ 89 of 162] Compiling Data.Tuple
+[ 90 of 162] Compiling Data.Maybe
+[ 91 of 162] Compiling Data.Const
+[ 93 of 162] Compiling Data.Profunctor.Join
+[ 92 of 162] Compiling Data.Profunctor.Split
+[ 94 of 162] Compiling Data.Functor.Contravariant
+[ 95 of 162] Compiling Data.Op
+[ 97 of 162] Compiling Data.Predicate
+[ 96 of 162] Compiling Data.Comparison
+[ 98 of 162] Compiling Data.Equivalence
+[ 99 of 162] Compiling JSURI
+[100 of 162] Compiling Data.Maybe.Last
+[101 of 162] Compiling Data.Maybe.First
+[102 of 162] Compiling Data.Number
+[103 of 162] Compiling Data.Either
+[104 of 162] Compiling Test.Main
+[106 of 162] Compiling Data.Number.Approximate
+[105 of 162] Compiling Data.Int
+[107 of 162] Compiling Data.Divide
+[108 of 162] Compiling Data.Profunctor.Strong
+[109 of 162] Compiling Data.Profunctor.Costrong
+[111 of 162] Compiling Data.Distributive
+[110 of 162] Compiling Data.Tuple.Nested
+[112 of 162] Compiling Performance.Minibench
+[113 of 162] Compiling Data.Divisible
+[114 of 162] Compiling Data.Decide
+[115 of 162] Compiling Data.Bifunctor
+[116 of 162] Compiling Data.Either.Inject
+[117 of 162] Compiling Effect.Exception
+[118 of 162] Compiling Data.Profunctor.Cochoice
+[120 of 162] Compiling Data.Profunctor.Choice
+[119 of 162] Compiling Data.Either.Nested
+[121 of 162] Compiling Effect.Exception.Unsafe
+[122 of 162] Compiling Data.Profunctor.Star
+[123 of 162] Compiling Control.Monad.Rec.Class
+[124 of 162] Compiling Data.Functor.Coproduct
+[125 of 162] Compiling Data.Functor.Product
+[127 of 162] Compiling Data.Functor.Costar
+[126 of 162] Compiling Control.Biapply
+[128 of 162] Compiling Data.Decidable
+[129 of 162] Compiling Control.Biapplicative
+[130 of 162] Compiling Data.Functor.Joker
+[131 of 162] Compiling Data.Bifunctor.Join
+[132 of 162] Compiling Data.Functor.Product2
+[133 of 162] Compiling Data.Functor.Flip
+[134 of 162] Compiling Data.Functor.Clown
+[137 of 162] Compiling Data.FunctorWithIndex
+[135 of 162] Compiling Data.Foldable
+[136 of 162] Compiling Data.Functor.Product.Nested
+[138 of 162] Compiling Data.Functor.Coproduct.Nested
+[139 of 162] Compiling Data.Functor.Coproduct.Inject
+[140 of 162] Compiling Control.Monad.ST.Internal
+[141 of 162] Compiling Control.Monad.ST.Ref
+[142 of 162] Compiling Control.Monad.ST.Uncurried
+[143 of 162] Compiling Control.Monad.ST
+[144 of 162] Compiling Control.Monad.ST.Global
+[145 of 162] Compiling Control.Monad.ST.Class
+[146 of 162] Compiling Data.Array.ST
+[147 of 162] Compiling Data.Array.ST.Partial
+[148 of 162] Compiling Data.Array.ST.Iterator
+[149 of 162] Compiling Data.Traversable
+[150 of 162] Compiling Data.Bifoldable
+[151 of 162] Compiling Data.FoldableWithIndex
+[152 of 162] Compiling Data.Semigroup.Foldable
+[153 of 162] Compiling Data.Semigroup.Traversable
+[154 of 162] Compiling Data.Bitraversable
+[155 of 162] Compiling Data.Unfoldable1
+[156 of 162] Compiling Data.TraversableWithIndex
+[157 of 162] Compiling Data.Unfoldable
+[159 of 162] Compiling Data.Array.NonEmpty.Internal
+[158 of 162] Compiling Data.NonEmpty
+[160 of 162] Compiling Data.Array
+[162 of 162] Compiling Data.Array.Partial
+[161 of 162] Compiling Data.Array.NonEmpty
+[WARNING 1/1 UnusedFFIImplementations] ../gopurs-st/src/Control/Monad/ST/Uncurried.purs:17:1
+
+      v
+  17  module Control.Monad.ST.Uncurried where
+  18  
+  19  import Control.Monad.ST.Internal (ST, Region)
+      ...
+  97    STFn8 a b c d e f g h t r -> a -> b -> c -> d -> e -> f -> g -> h -> ST t r
+  98  foreign import runSTFn9 :: forall a b c d e f g h i t r.
+  99    STFn9 a b c d e f g h i t r -> a -> b -> c -> d -> e -> f -> g -> h -> i -> ST t r
+                                                                                         ^
+
+  The following definitions in the foreign module for module Control.Monad.ST.Uncurried are unused:
+    mkSTFn10
+    runSTFn10
+
+           Src   Lib   All
+Warnings     0     1     1
+Errors       0     0     0
+
+✓ Build succeeded.
+
+=== Generating Go code with gopurs ===
+=== Compiling and running Go test binary ===
+panic: FFI not implemented: _encodeURIComponent
+
+goroutine 1 [running]:
+gopurs/output/JSURI.init.func6({0x494c75024d18?, 0x10254cc8c?, 0x494c75024d28?})
+	/Users/0x1/Documents/htdocs/gopurs-js-uri/output/JSURI/JSURI_ffi.go:10 +0x2c
+gopurs/output/gopurs_runtime.Apply({0x102774108, 0x10, 0x1026b8ea0}, {0x494c74f54040?, 0x494c75024d58?, 0x1026a45a0?})
+	/Users/0x1/Documents/htdocs/gopurs-js-uri/output/gopurs_runtime/runtime.go:400 +0x60
+gopurs/output/gopurs_runtime.UncurriedApp3({0x0, 0x0, 0x0}, {0x0?, 0x494c75024e48?, 0x1026a45a0?}, {0x0?, 0x0?, 0x1026a4be8?}, {0x0?, ...})
+	/Users/0x1/Documents/htdocs/gopurs-js-uri/output/gopurs_runtime/runtime.go:512 +0x88
+gopurs/output/Test%2eMain.Get_main.func1()
+	/Users/0x1/Documents/htdocs/gopurs-js-uri/output/Test.Main/Test_Main.go:39 +0xc0
+sync.(*Once).doSlow(0x10259f962?, 0x5?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/sync/once.go:78 +0xdc
+sync.(*Once).Do(...)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/sync/once.go:69
+gopurs/output/Test%2eMain.Get_main()
+	/Users/0x1/Documents/htdocs/gopurs-js-uri/output/Test.Main/Test_Main.go:38 +0x40
+main.main()
+	/Users/0x1/Documents/htdocs/gopurs-js-uri/output/Test.Main/main/main.go:18 +0xa0
