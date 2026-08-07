@@ -4,6 +4,7 @@ import Prelude
 
 import Data.Maybe (Maybe(..))
 import Effect (Effect)
+import Effect.Console (log)
 import JSURI (decodeFormURLComponent, decodeURIComponent, encodeFormURLComponent, encodeURIComponent)
 import Test.Assert (assert)
 
@@ -17,3 +18,5 @@ main = do
   assert $ decodeURIComponent "https%3A%2F%2Fpurescript.org" == Just "https://purescript.org"
   assert $ decodeURIComponent "https%3A%2F%2Fpurescript.org?search+query" == Just "https://purescript.org?search+query"
   assert $ decodeFormURLComponent "https%3A%2F%2Fpurescript.org?search+query" == Just "https://purescript.org?search query"
+  
+  log "All tests passed!"
