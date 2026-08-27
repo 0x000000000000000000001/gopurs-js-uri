@@ -4,7 +4,6 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"gopurs/output/Effect.Exception"
 	"gopurs/output/gopurs_runtime"
 )
 
@@ -107,7 +106,7 @@ var _DecodeURIComponent = gopurs_runtime.Func3(func(fail, succeed, input gopurs_
 	str := input.StrVal()
 	res, ok := decodeStr(str, false)
 	if !ok {
-		errVal := gopurs_runtime.Apply(Effect_Exception.Get_error(), gopurs_runtime.Str("URI malformed"))
+		errVal := gopurs_runtime.Apply(Get_Effect_Exception_error(), gopurs_runtime.Str("URI malformed"))
 		return gopurs_runtime.Apply(fail, errVal)
 	}
 	return gopurs_runtime.Apply(succeed, gopurs_runtime.Str(res))
@@ -117,7 +116,7 @@ var _DecodeFormURLComponent = gopurs_runtime.Func3(func(fail, succeed, input gop
 	str := input.StrVal()
 	res, ok := decodeStr(str, true)
 	if !ok {
-		errVal := gopurs_runtime.Apply(Effect_Exception.Get_error(), gopurs_runtime.Str("URI malformed"))
+		errVal := gopurs_runtime.Apply(Get_Effect_Exception_error(), gopurs_runtime.Str("URI malformed"))
 		return gopurs_runtime.Apply(fail, errVal)
 	}
 	return gopurs_runtime.Apply(succeed, gopurs_runtime.Str(res))
@@ -147,7 +146,7 @@ var _DecodeURI = gopurs_runtime.Func3(func(fail, succeed, input gopurs_runtime.V
 	str := input.StrVal()
 	res, ok := decodeStr(str, false)
 	if !ok {
-		errVal := gopurs_runtime.Apply(Effect_Exception.Get_error(), gopurs_runtime.Str("URI malformed"))
+		errVal := gopurs_runtime.Apply(Get_Effect_Exception_error(), gopurs_runtime.Str("URI malformed"))
 		return gopurs_runtime.Apply(fail, errVal)
 	}
 	return gopurs_runtime.Apply(succeed, gopurs_runtime.Str(res))
